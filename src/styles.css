@@ -1,0 +1,204 @@
+body {
+    font-family: 'Syne', sans-serif;
+}
+
+section {
+    /* height: 500px; */
+    background-color: rgb(74, 6, 81);
+    /* #341212; */
+    color: white;
+    line-height: 1.50;
+    
+    
+    
+}
+.hero {
+    
+    background-color:rgb(60, 0, 0);
+    /* #8F83D8 */
+    /* background-color: #1c1d25; */
+    height: 100vh;
+    color: white;
+    font-size: 40px;
+    
+    
+}
+
+footer {
+    /* height: 500px; */
+    background-color: #000000;
+    color:white;
+    text-align: center;
+    padding: 80px;
+    line-height: 90px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    /* margin-left: 200px; */
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    width: 500px;
+    justify-content: space-around;
+    font-size: 30px;
+    
+}
+
+li {
+    /* width: 200px; */
+    text-decoration: none;
+    /* margin: 50px; */
+    
+}
+
+h1 {
+    font-size: 90px;
+    margin: 0;
+}
+
+h2 {
+    
+    font-size: 50px;
+}
+
+p {
+    margin-bottom: 32px;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 28px;
+
+}
+
+.subtext {
+    font-size: 15px;
+    font-weight: 100;
+    margin-left: 10px;
+}
+
+.hero-area {
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-text {
+    margin-left: 80px;
+    margin-bottom: 200px;
+}
+
+.button {
+    width: 180px;
+    height: 45px;
+    border-radius: 40px;
+    background-color: #2c84dc;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    padding-top: 1px;
+    margin-top: 20px;
+}
+
+.button:hover{
+    background-color: #8F83D8;
+
+}
+
+.button:active{
+    background-color: #1e8dd7;
+    color: #1e8dd7;
+}
+
+.socials {
+    padding-bottom: 200px;
+}
+
+
+.social {
+    margin: 20px;
+}
+
+.sub-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+}
+
+.sub-section-alternative{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 80px;
+    background-color: #003c35;
+
+}
+
+.headshot {
+    width: 300px;
+    border-radius: 150px;
+}
+
+.headshot-container {
+    display: flex;
+    align-items: center;
+}
+
+
+.project-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+    /* display: flex;
+    justify-content: space-around; */
+}
+
+.figma-embed{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media only screen and (max-width: 1000px){
+        .project-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+.project-image{
+    
+    width: 600px;
+    height: 400px;
+    /* border-radius: 35px;
+    margin-bottom: 10px; */
+
+    /* display:inline */
+}
+
+hr {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20;
+    border: none;
+    
+}
+
+.project-link{
+    text-decoration: none;
+    color: #2c84dc;
+    /* color: #004d25; */
+    
+}
+
+a{
+    text-decoration: none;
+    color:white;
+    margin-bottom: 400px;
+}
+
+
+
